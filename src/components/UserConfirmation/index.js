@@ -4,7 +4,7 @@ import Container from './index.style'
 import Button from '../Button'
 import Modal from '../Modal'
 
-export default class DeleteConfirmation extends React.Component<{
+export default class UserConfirmation extends React.Component<{
   children: any,
   options: {
     active: boolean,
@@ -27,13 +27,14 @@ export default class DeleteConfirmation extends React.Component<{
   }
   render() {
     const {
-      options: { active, title, buttonStyles, ...options },
+      options: { active, buttonStyles, title, ...options },
       ...props
     } = this.props
     return active ? (
       <Modal>
         <Container
           className="delete-model"
+          {...props}
           options={{
             ...options,
             styles: {
