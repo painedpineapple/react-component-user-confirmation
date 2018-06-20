@@ -1,5 +1,5 @@
 {
-  "name": "react-component-starter",
+  "name": "react-component-user-confirmation",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -12,7 +12,8 @@
     "react-dom": "16.3.2",
     "react-emotion": "9.2.3",
     "react-scripts": "1.1.4",
-    "react-spring": "5.3.15"
+    "react-spring": "5.3.15",
+    "react-static": "5.9.7"
   },
   "devDependencies": {},
   "scripts": {
